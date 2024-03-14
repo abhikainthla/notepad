@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    margin: 16px 0;
+}
+.text-container {
+    width: 1000px;
+}
+.btns{
+    display: flex;
+    justify-content: start;
+    gap: 2.5rem;
+    padding: 16px 32px;
+}
+h1{
+    font-weight: 500;
+}
+.btn{
+    background-color: transparent;
+    border: 1px  solid black;
+    border-radius: 3px;
+    margin-left: 3px;
+    height: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+
+.btn2 {
+    background-color:transparent;
+    border:none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.list {
+    background-color: #3c91e6;
+    color: #fff;
+    width: 250px;
+    min-height: 80px;
+    height: auto;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 210px;
+    cursor: pointer;
+}
